@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+body {
+    height: 650px;
+    margin: 0;
+    padding: 0;
+}
+.vihod {
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    width: 1140px;
+    margin: 0 auto;
+    background-color: #25303E;
+}
+.ul {
+    position: absolute;
+    margin-left: 1020px;
+    display: flex;
+    justify-content: space-between;
+}
+.v {
+    text-align: center;
+    width: 30px;
+    margin-right: 0px;
+    margin-top: -2px;
+}
+.v:hover {
+    background-color: #768C9E;
+}
+.container {
+    display: flex;
+    background-color: #0E1621;
+    margin: auto;
+    /* max-width: 1440px; */
+    height: 600px;
+    border: 1px solid #000;
+}
+.header {
+    height: 550px;
+    display: flex;
+}
+.form {
+    margin-right: 0;
+    padding-left: 0;
+}
+.icons {
+    width: 60px;
+    margin-top: 20px;
+}
+.my__icon:hover {
+    background-color: rgba(255, 255, 255, 0.051);
+
+}
+.icons button {
+    margin-bottom: 20px;
+}
+.my__icon {
+    margin: -20px -15px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.my__icon1 {
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.my__icon2 {
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.my__icon3 {
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.my__icon4 {
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.my__icon5 {
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.icon {
+    color: #768C9E;
+}
+.users {
+    background-color: #17212B;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 300px;
+    padding-top: 20px;
+    overflow: scroll;
+}
+.image {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+.user {
+    width: auto;
+    margin-left: -10px;
+    position: absolute;
+    margin-top: 50px;
+    height: 530px;
+    overflow: scroll;
+}
+.btn {
+    margin: 0 auto;
+    display: block;
+    width: 260px;
+    height: 80px;
+    background-color: transparent;
+    text-align: left;
+}
+.btn:hover {
+    background-color: #25303E;
+}
+.newli {
+    margin-left: 50px;
+    color: #fff;
+    list-style-type: none;
+}
+.name {
+    color: #5F8091;
+    list-style-type: none;
+    margin: 0 0 10px 50px;
+    flex-wrap: wrap;
+}
+.chats {
+    margin-top: 50px;
+    height: 500px;
+    overflow-x: hidden;
+}
+.chat {
+    list-style-type: none;
+    margin-left: 250px;
+    margin-top: 10px;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 10px;
+    display: flex;
+    width: 250px;
+    background-color: #25303E;
+}
+li {
+    list-style-type: none;
+}
+::-webkit-scrollbar {
+    width: .0rem;
+}
+.tg__blue {
+    background-color: #2B5278;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 1200px) {
+    .chat {
+        width: 300px;
+        display: flex;
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 590px) {
+    .header {
+        display: flex;
+        width: 590px;
+        flex-wrap: nowrap;
+        margin-left: 0px;
+    }
+    .chats {
+        margin-left: 0;
+    }
+    .chat {
+        font-size: 12px;
+        width: 150px;
+        margin-left: 110px;
+        padding-right: 20px;
+    }
+    .users {
+        width: 200px;
+    }
+    .my__btn {
+        width: 200px;
+    }
+}
+.info {
+    position: absolute;
+    color: white;
+    margin-left: 440px;
+    width: 230px;
+    height: 600px;
+}
+.inf {
+    padding: 20px;
+    position: absolute;
+    color: white;
+    margin-left: 440px;
+    width: 230px;
+    height: 600px;
+    background-color: #17212B;
+}
+.bi {
+    width: 40px;
+    height: auto;
+}
+.bii:hover {
+    padding: 0 7px;
+    background-color: red;
+}
+.h {
+    margin-left: 360px;
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    background-color: #17212B;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.inp {
+    position: absolute;
+    width: 370px;
+    height: 50px;
+}
+.inp input {
+    border: none;
+    text-decoration: line-through;
+    overflow: hidden;
+    color: white;
+    background-color: #17212B;
+    width: 500px;
+    margin-left: 370px;
+    margin-top: 560px;
+    position: absolute;
+}
